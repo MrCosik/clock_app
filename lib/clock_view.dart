@@ -20,7 +20,6 @@ class _ClockViewState extends State<ClockView> {
 }
 
 class ClockPainter extends CustomPainter {
-// dsada
 
   @override
   void paint(Canvas canvas, Size size) {
