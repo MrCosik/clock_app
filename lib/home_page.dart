@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'clock_view.dart';
+
 
 class HomePage extends StatefulWidget {
   @override
@@ -10,7 +12,9 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        alignment: Alignment.center,
         color: Color(0xFF35425E),
+        child: ClockView(),
       ),
     );
   }
